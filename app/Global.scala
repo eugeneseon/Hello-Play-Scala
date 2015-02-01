@@ -31,7 +31,6 @@ import akka.persistence.hbase.journal._
 
 
 //import com.freeneo.spark._
-import com.freeneo.akka.persistence._
 import com.freeneo.logprocess._
 import com.freeneo.managers._
 
