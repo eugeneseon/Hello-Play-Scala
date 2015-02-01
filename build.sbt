@@ -162,14 +162,3 @@ pipelineStages := Seq(rjs, digest, gzip)
 
 //DigestKeys.algorithms += "sha1"
 
-//smtp.host=smtp.gmail.com
-
-//smtp.port=465
-
-//smtp.ssl=yes
-
-//smtp.tls=yes
-
-//smtp.user="jongchul.seon@gmail.com"
-
-//smtp.password=Eugene00!!
