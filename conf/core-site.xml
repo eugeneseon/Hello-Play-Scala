@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <!--  
+  <property>
+        <name>fs.default.name</name>
+        <value>hdfs://localhost:8020</value>
+    </property>
+    -->
+    <property>
+        <name>fs.default.name</name>
+  <!--   <value>hdfs://freeneoweb2.c.absolute-runner-550.internal:8020</value>--> 
+      <value>hdfs://localhost:8020</value>
+     </property>
+     <!--  
+    <property>
+        <name>fs.defaultFs</name>
+        <value>hdfs://freeneo</value>
+    </property>
+    <property>
+        <name>ha.zookeeper.quorum</name>
+        <value>freeneoweb1.c.absolute-runner-550.internal:2181,freeneoweb2.c.absolute-runner-550.internal:2181,freeneoweb3.c.absolute-runner-550.internal:2181</value>
+    </property>
+    -->
+    <!--  
+     <property>
+    <name>hadoop.tmp.dir</name>
+    <value>/tmp/hadoop-${user.name}</value>
+    <description>A base for other temporary directories.</description>
+  </property>
+  -->
+</configuration>

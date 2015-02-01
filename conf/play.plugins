@@ -1,0 +1,4 @@
+#200:com.edulify.play.hikaricp.HikariCPPlugin
+#550:com.typesafe.plugin.RedisPlugin
+#1000:com.kenshoo.play.metrics.MetricsPlugin
+#1500:play.api.libs.mailer.CommonsMailerPlugin

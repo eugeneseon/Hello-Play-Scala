@@ -1,0 +1,36 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# urls for application pre-start
+GET     /                           controllers.Application.index
+POST        /saveregId                controllers.GoogleCloud.saveregId
+GET        /home                controllers.Application.getHome
+
+# urls for user 
+#POST        /register1                @controllers.User.register1
+#POST        /register2                @controllers.User.register2
+POST        /register1                controllers.User.register1
+POST        /register2                controllers.User.register2
+GET      /userSta                controllers.User.getUserSta
+
+# urls for user authentication
+GET     /login                              controllers.Auth.login
+POST    /login                              controllers.Auth.authenticate
+GET     /logout                             controllers.Auth.logout
+
+# urls for metrics
+#GET     /admin/metrics              com.kenshoo.play.metrics.MetricsController.metrics
+
+# urls for hbase table creation for application
+
+# urls for treating files with hadoop 
+GET 	/hadoop/saveFile			controllers.BatchOp.saveFile 
+GET 	/hadoop/removeFile			controllers.BatchOp.removeFile 
+GET 	/hadoop/readFile			controllers.BatchOp.readFile 
+
+
+# Map static resources from the /public folder to the /assets URL path
+#GET        /*file                            controllers.Assets.versioned(path="/public", file: Asset)
+GET     /*file               controllers.Assets.at(path="/public", file)
+

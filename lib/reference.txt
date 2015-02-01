@@ -1,0 +1,21 @@
+# commons-beanutils-1.7.0.jar 
+delete conflict package with commons-collection 
+
+# spark-core_2.10-1.3.0-SNAPSHOT.jar 
+change maven dependency in pom.xml 
+com.google.guava => provided 
+
+# xmlbeans-2.3.0.jar
+delete conflice package, org.w3c, with xml-apis-1.4.01.jar
+
+# exclude spark lib
+akka version conflict with play 2.4 
+
+# exclude javax.xml.namespace.QName from xpp3-1.1.4.c.jar
+conflict with xml-apis-1.4.01.jar 
+
+
+
+
+
+
