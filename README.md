@@ -1,5 +1,5 @@
-Play Scala for dummies
-======================
+Play Scala for dummies (Pre-alpha version)
+===========================================
 
 This template application shows how to organize your application with
 angularjs, phoenix, flume.
