@@ -26,7 +26,6 @@ import scala.collection.JavaConverters._
 import models._
 import com.freeneo.phoenix._
 import com.freeneo.hdfs._
-import com.freeneo.akka.persistence._
 import com.freeneo.mailer._
 
 object Application extends Controller with Secured{
