@@ -1,0 +1,6 @@
+2015-02-01 10:51:29 +0000 [INFO] from application in play-internal-execution-context-1 - Application has started
+2015-02-01 10:51:29 +0000 [INFO] from application in play-internal-execution-context-1 - plannedStart: 2015-02-01T20:00:00.000Z
+2015-02-01 10:51:29 +0000 [INFO] from application in play-internal-execution-context-1 - now: 2015-02-01T10:51:29.297Z
+2015-02-01 10:51:29 +0000 [INFO] from application in play-internal-execution-context-1 - nextRun: 2015-02-01T20:00:00.000Z
+2015-02-01 10:51:29 +0000 [INFO] from application in play-internal-execution-context-1 - nextRunInSeconds: 32910
+2015-02-01 10:51:29 +0000 [INFO] from play.api.libs.concurrent.ActorSystemProvider in play-internal-execution-context-1 - Starting application default Akka system: application
