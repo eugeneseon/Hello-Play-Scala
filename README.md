@@ -2,7 +2,7 @@ Play Scala for dummies
 ======================
 
 This template application shows how to organize your application with
-angularjs, hbase, flume.
+angularjs, phoenix, flume.
 
 
 ## Trying It Out
