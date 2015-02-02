@@ -74,7 +74,7 @@ object GooglePushConnect{
  
     val conn: HttpURLConnection = url.openConnection.asInstanceOf[HttpURLConnection]
     
-    val serverkey = "AIzaSyAif9qKwf6FUZMx9HGToGzbEln21Q4bRKw"
+    val serverkey = "your server key"
 //       AIzaSyCq1kO3y6XxQXOgl4VieT3bSPZIouEdxso
     
     val apiKey = serverkey
